@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+h3 {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f1f1f1;
+}
+
+.appBody {
+    width: 500px;
+    height: 450px;
+    border: 1px dashed #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: rgb(0 0 0) 1px 0px 8px;
+}
+.appBody .icon {
+    font-size: 60px;
+    color: rgb(11, 217, 224);
+}
+
+.appBody h3 {
+    font-size: 2rem;
+    color: tomato;
+}
+.appBody span {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+.active {
+    border: 3px dashed #230deb;
+}
